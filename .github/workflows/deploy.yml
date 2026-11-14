@@ -45,8 +45,7 @@ jobs:
   deploy:
     name: Deploy to Cloudflare Workers
     needs: build
-    # runs only when the Cloudflare deploy secrets are configured (repo Settings → Secrets)
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push' && secrets.CLOUDFLARE_API_TOKEN != ''
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -60,18 +59,37 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Check deploy secrets
+        id: secrets
+        env:
+          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          if [ -n "$CF_TOKEN" ]; then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=false" >> "$GITHUB_OUTPUT"
+            echo "CLOUDFLARE_API_TOKEN not configured — skipping deploy (add repo secrets to enable)."
+          fi
+
       - name: Build OpenNext bundle
+        if: steps.secrets.outputs.present == 'true'
         run: npm run cf:build
 
       - name: Sync AI key to Worker secret
-        if: ${{ secrets.AI_API_KEY != '' }}
+        if: steps.secrets.outputs.present == 'true'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
-        run: echo "AI_API_KEY=$AI_API_KEY" | npx wrangler secret put AI_API_KEY
+        run: |
+          if [ -n "$AI_API_KEY" ]; then
+            echo "AI_API_KEY=$AI_API_KEY" | npx wrangler secret put AI_API_KEY
+          else
+            echo "AI_API_KEY not configured — the copilot will run in deterministic mode."
+          fi
 
       - name: Deploy
+        if: steps.secrets.outputs.present == 'true'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
