@@ -1,10 +1,9 @@
 // OpenNext Cloudflare — worker configuration
 // Docs: https://opennext.js.org/cloudflare
+//
+// The app is fully prerendered (static + hash-routed client views) and its API
+// routes are dynamic-by-nature, so no incremental-cache override is required —
+// the default config needs no KV namespace and keeps deploys one-command simple.
 import { defineCloudflareConfig } from "@opennextjs/cloudflare";
-import kvIncrementalCache from "@opennextjs/cloudflare/overrides/incremental-cache/kv-incremental-cache";
 
-export default defineCloudflareConfig({
-  // KV-backed ISR cache (the app is fully static/hash-routed, so cache misses
-  // are rare — but this keeps any future dynamic page correct and fast).
-  incrementalCache: kvIncrementalCache,
-});
+export default defineCloudflareConfig({});
