@@ -1,0 +1,350 @@
+{
+ "generatedAt": "2026-11-14",
+ "note": "Figures extracted from NASA PSI source documents (reports and papers) by the documented ingestion batches, curated to a non-duplicative subset and shipped as static assets. Captions cite the source document and ingestion batch; figures are page-extracted evidence, not re-rendered data.",
+ "totalAvailable": 468,
+ "totalUsable": 206,
+ "totalCurated": 24,
+ "byInvestigation": [
+  {
+   "accession": "PSI-10",
+   "count": 9,
+   "sourceFile": "advanced-combustion-via-microgravity-experiments-acme.pdf"
+  },
+  {
+   "accession": "PSI-100",
+   "count": 1,
+   "sourceFile": "spacecraft-fire-safety-demonstration-saffire.pdf"
+  },
+  {
+   "accession": "PSI-106",
+   "count": 1,
+   "sourceFile": "structure-liftoff-in-combustion-experiment-slice.pdf"
+  },
+  {
+   "accession": "PSI-107",
+   "count": 1,
+   "sourceFile": "smoke-point-in-co-flow-experiment-spice.pdf"
+  },
+  {
+   "accession": "PSI-159",
+   "count": 9,
+   "sourceFile": "advanced-combustion-via-microgravity-experiments-acme.pdf"
+  },
+  {
+   "accession": "PSI-20",
+   "count": 9,
+   "sourceFile": "advanced-combustion-via-microgravity-experiments-acme.pdf"
+  },
+  {
+   "accession": "PSI-21",
+   "count": 9,
+   "sourceFile": "advanced-combustion-via-microgravity-experiments-acme.pdf"
+  },
+  {
+   "accession": "PSI-22",
+   "count": 9,
+   "sourceFile": "advanced-combustion-via-microgravity-experiments-acme.pdf"
+  },
+  {
+   "accession": "PSI-23",
+   "count": 9,
+   "sourceFile": "advanced-combustion-via-microgravity-experiments-acme.pdf"
+  },
+  {
+   "accession": "PSI-25",
+   "count": 1,
+   "sourceFile": "burning-and-suppression-of-solids-bass.pdf"
+  },
+  {
+   "accession": "PSI-26",
+   "count": 1,
+   "sourceFile": "burning-and-suppression-of-solids-bass.pdf"
+  },
+  {
+   "accession": "PSI-47",
+   "count": 1,
+   "sourceFile": "dust-and-aerosol-measurement-feasibility-test-daft.pdf"
+  },
+  {
+   "accession": "PSI-69",
+   "count": 4,
+   "sourceFile": "flame-extinguishment-experiment-flex.pdf"
+  },
+  {
+   "accession": "PSI-98",
+   "count": 1,
+   "sourceFile": "spacecraft-fire-safety-demonstration-saffire.pdf"
+  },
+  {
+   "accession": "PSI-99",
+   "count": 1,
+   "sourceFile": "spacecraft-fire-safety-demonstration-saffire.pdf"
+  }
+ ],
+ "items": [
+  {
+   "file": "/figures/PSI-10/fig-001.png",
+   "sourceFile": "advanced-combustion-via-microgravity-experiments-acme.pdf",
+   "batchId": "B-20261112-004",
+   "page": 11,
+   "width": 600,
+   "height": 150,
+   "accession": "PSI-10",
+   "facility": null,
+   "interpretation": null
+  },
+  {
+   "file": "/figures/PSI-10/fig-002.png",
+   "sourceFile": "advanced-combustion-via-microgravity-experiments-acme.pdf",
+   "batchId": "B-20261112-004",
+   "page": 4,
+   "width": 686,
+   "height": 564,
+   "accession": "PSI-10",
+   "facility": null,
+   "interpretation": null
+  },
+  {
+   "file": "/figures/PSI-10/fig-003.png",
+   "sourceFile": "advanced-combustion-via-microgravity-experiments-acme.pdf",
+   "batchId": "B-20261112-004",
+   "page": 13,
+   "width": 600,
+   "height": 227,
+   "accession": "PSI-10",
+   "facility": null,
+   "interpretation": null
+  },
+  {
+   "file": "/figures/PSI-10/fig-004.png",
+   "sourceFile": "advanced-combustion-via-microgravity-experiments-acme.pdf",
+   "batchId": "B-20261112-004",
+   "page": 3,
+   "width": 850,
+   "height": 239,
+   "accession": "PSI-10",
+   "facility": null,
+   "interpretation": null
+  },
+  {
+   "file": "/figures/PSI-10/fig-005.png",
+   "sourceFile": "advanced-combustion-via-microgravity-experiments-acme.pdf",
+   "batchId": "B-20261112-004",
+   "page": 2,
+   "width": 750,
+   "height": 600,
+   "accession": "PSI-10",
+   "facility": null,
+   "interpretation": null
+  },
+  {
+   "file": "/figures/PSI-10/fig-006.png",
+   "sourceFile": "advanced-combustion-via-microgravity-experiments-acme.pdf",
+   "batchId": "B-20261112-004",
+   "page": 9,
+   "width": 600,
+   "height": 333,
+   "accession": "PSI-10",
+   "facility": null,
+   "interpretation": null
+  },
+  {
+   "file": "/figures/PSI-10/fig-007.png",
+   "sourceFile": "advanced-combustion-via-microgravity-experiments-acme.pdf",
+   "batchId": "B-20261112-004",
+   "page": 12,
+   "width": 600,
+   "height": 382,
+   "accession": "PSI-10",
+   "facility": null,
+   "interpretation": null
+  },
+  {
+   "file": "/figures/PSI-10/fig-008.png",
+   "sourceFile": "advanced-combustion-via-microgravity-experiments-acme.pdf",
+   "batchId": "B-20261112-004",
+   "page": 1,
+   "width": 155,
+   "height": 155,
+   "accession": "PSI-10",
+   "facility": null,
+   "interpretation": null
+  },
+  {
+   "file": "/figures/PSI-10/fig-009.png",
+   "sourceFile": "advanced-combustion-via-microgravity-experiments-acme.pdf",
+   "batchId": "B-20261112-004",
+   "page": 10,
+   "width": 253,
+   "height": 330,
+   "accession": "PSI-10",
+   "facility": null,
+   "interpretation": null
+  },
+  {
+   "file": "/figures/PSI-100/fig-010.png",
+   "sourceFile": "spacecraft-fire-safety-demonstration-saffire.pdf",
+   "batchId": "B-20261112-005",
+   "page": 1,
+   "width": 155,
+   "height": 155,
+   "accession": "PSI-100",
+   "facility": null,
+   "interpretation": null
+  },
+  {
+   "file": "/figures/PSI-106/fig-011.png",
+   "sourceFile": "structure-liftoff-in-combustion-experiment-slice.pdf",
+   "batchId": "B-20261112-005",
+   "page": 1,
+   "width": 155,
+   "height": 155,
+   "accession": "PSI-106",
+   "facility": null,
+   "interpretation": null
+  },
+  {
+   "file": "/figures/PSI-107/fig-012.png",
+   "sourceFile": "smoke-point-in-co-flow-experiment-spice.pdf",
+   "batchId": "B-20261112-004",
+   "page": 1,
+   "width": 155,
+   "height": 155,
+   "accession": "PSI-107",
+   "facility": null,
+   "interpretation": null
+  },
+  {
+   "file": "/figures/PSI-25/fig-013.png",
+   "sourceFile": "burning-and-suppression-of-solids-bass.pdf",
+   "batchId": "B-20261112-004",
+   "page": 5,
+   "width": 206,
+   "height": 135,
+   "accession": "PSI-25",
+   "facility": null,
+   "interpretation": null
+  },
+  {
+   "file": "/figures/PSI-47/fig-014.png",
+   "sourceFile": "dust-and-aerosol-measurement-feasibility-test-daft.pdf",
+   "batchId": "B-20261112-004",
+   "page": 1,
+   "width": 155,
+   "height": 155,
+   "accession": "PSI-47",
+   "facility": null,
+   "interpretation": null
+  },
+  {
+   "file": "/figures/PSI-69/fig-015.png",
+   "sourceFile": "flame-extinguishment-experiment-flex.pdf",
+   "batchId": "B-20261112-004",
+   "page": 4,
+   "width": 155,
+   "height": 155,
+   "accession": "PSI-69",
+   "facility": null,
+   "interpretation": null
+  },
+  {
+   "file": "/figures/PSI-69/fig-016.png",
+   "sourceFile": "flame-extinguishment-experiment-flex.pdf",
+   "batchId": "B-20261112-004",
+   "page": 1,
+   "width": 155,
+   "height": 155,
+   "accession": "PSI-69",
+   "facility": null,
+   "interpretation": null
+  },
+  {
+   "file": "/figures/PSI-69/fig-017.png",
+   "sourceFile": "flame-extinguishment-experiment-flex.pdf",
+   "batchId": "B-20261112-004",
+   "page": 5,
+   "width": 155,
+   "height": 155,
+   "accession": "PSI-69",
+   "facility": null,
+   "interpretation": null
+  },
+  {
+   "file": "/figures/PSI-69/fig-018.png",
+   "sourceFile": "flame-extinguishment-experiment-flex.pdf",
+   "batchId": "B-20261112-004",
+   "page": 3,
+   "width": 155,
+   "height": 155,
+   "accession": "PSI-69",
+   "facility": null,
+   "interpretation": null
+  },
+  {
+   "file": "/figures/facilities/fig-019.png",
+   "sourceFile": "ISS Fluids and Combustion Facility - Combustion Integrated Rack Operations - ISS Fluids and Combustion Facility - Combustion Integrated Rack Operations.pdf",
+   "batchId": "B-20261112-004",
+   "page": 1,
+   "width": 3107,
+   "height": 4637,
+   "accession": null,
+   "facility": "Fluids & Combustion Facility (FCF)",
+   "interpretation": null
+  },
+  {
+   "file": "/figures/facilities/fig-020.png",
+   "sourceFile": "Fluids & Combustion Facility - NASA.pdf",
+   "batchId": "B-20261112-004",
+   "page": 3,
+   "width": 142,
+   "height": 211,
+   "accession": null,
+   "facility": "Fluids & Combustion Facility (FCF)",
+   "interpretation": null
+  },
+  {
+   "file": "/figures/facilities/fig-021.png",
+   "sourceFile": "ISS Fluids and Combustion Facility - Combustion Integrated Rack Operations - ISS Fluids and Combustion Facility - Combustion Integrated Rack Operations.pdf",
+   "batchId": "B-20261112-004",
+   "page": 1,
+   "width": 217,
+   "height": 300,
+   "accession": null,
+   "facility": "Fluids & Combustion Facility (FCF)",
+   "interpretation": null
+  },
+  {
+   "file": "/figures/facilities/fig-022.png",
+   "sourceFile": "ISS Fluids and Combustion Facility - Combustion Integrated Rack Operations - ISS Fluids and Combustion Facility - Combustion Integrated Rack Operations.pdf",
+   "batchId": "B-20261112-004",
+   "page": 1,
+   "width": 300,
+   "height": 160,
+   "accession": null,
+   "facility": "Fluids & Combustion Facility (FCF)",
+   "interpretation": null
+  },
+  {
+   "file": "/figures/facilities/fig-023.png",
+   "sourceFile": "ISS Fluids and Combustion Facility - Combustion Integrated Rack Operations - ISS Fluids and Combustion Facility - Combustion Integrated Rack Operations.pdf",
+   "batchId": "B-20261112-004",
+   "page": 1,
+   "width": 192,
+   "height": 300,
+   "accession": null,
+   "facility": "Fluids & Combustion Facility (FCF)",
+   "interpretation": null
+  },
+  {
+   "file": "/figures/facilities/fig-024.png",
+   "sourceFile": "ISS Fluids and Combustion Facility - Combustion Integrated Rack Operations - ISS Fluids and Combustion Facility - Combustion Integrated Rack Operations.pdf",
+   "batchId": "B-20261112-004",
+   "page": 1,
+   "width": 224,
+   "height": 300,
+   "accession": null,
+   "facility": "Fluids & Combustion Facility (FCF)",
+   "interpretation": null
+  }
+ ]
+}

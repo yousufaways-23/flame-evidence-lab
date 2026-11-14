@@ -1,0 +1,33 @@
+# dependencies
+node_modules/
+
+# next.js
+/.next/
+/out/
+/.open-next/
+next-env.d.ts
+
+# typescript
+*.tsbuildinfo
+
+# logs
+*.log
+
+# environment & secrets — NEVER commit credentials
+.env
+.env.*
+!.env.example
+
+# wrangler
+.wrangler/
+
+# local tooling state
+.mimosa/
+
+# misc
+.DS_Store
+*.pem
+/.vercel
+/.claude
+/.z-ai-config
+coverage/

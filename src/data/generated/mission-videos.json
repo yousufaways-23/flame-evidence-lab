@@ -1,0 +1,151 @@
+{
+  "generatedAt": "2026-11-14T00:00:00Z",
+  "verification": "Every YouTube record resolved live via YouTube oEmbed (title + author) on 2026-11-14; the NASA SVS visualization page returned HTTP 200 on 2026-11-14. Titles are the canonical oEmbed titles — never paraphrased.",
+  "note": "Official NASA mission-media selection curated by the ZERO FLARE team. sourceType is labelled honestly: NASA-official channels are marked 'nasa-official'; university-lab and independent communicator/news uploads are marked as such and are NOT NASA footage provenance.",
+  "videos": [
+    {
+      "id": "qQQ1OHW1_F4",
+      "provider": "youtube",
+      "title": "Amazing Flame Comes to Life in Space Station Microgravity Combustion Science",
+      "channel": "NASA Johnson",
+      "sourceType": "nasa-official",
+      "program": "FLEX — droplet combustion",
+      "overview": "NASA Johnson footage of droplet combustion science aboard the ISS — the experimental regime of the FLEX (PSI-69) and FLEX-2 (PSI-68) investigations: isolated methanol/heptane droplets burning spherically in microgravity.",
+      "mapsTo": ["PSI-68", "PSI-69", "PSI-39"],
+      "placement": ["media", "investigation", "mission"]
+    },
+    {
+      "id": "TgCUwoTvNFQ",
+      "provider": "youtube",
+      "title": "Hot Flame Aboard the International Space Station - July 14, 2021",
+      "channel": "NASA Video",
+      "sourceType": "nasa-official",
+      "program": "ACME — ISS hot flames",
+      "overview": "NASA footage of a hot diffusion flame burning aboard the ISS — the gaseous-fuel regime studied by the ACME suite (Flame Design, s-Flame, CLD Flame, E-FIELD Flames, BRE) inside the Combustion Integrated Rack.",
+      "mapsTo": ["PSI-10", "PSI-20", "PSI-21", "PSI-22", "PSI-23", "PSI-159"],
+      "placement": ["media", "investigation", "mission"]
+    },
+    {
+      "id": "SZTl7oi05dQ",
+      "provider": "youtube",
+      "title": "Microgravity Combustion",
+      "channel": "FPEatUMD",
+      "sourceType": "university-lab",
+      "program": "Spherical diffusion flames",
+      "overview": "University of Maryland Fire Protection Engineering footage of a spherical diffusion flame in microgravity — the burner geometry and buoyancy-free regime measured by ACME s-Flame (PSI-23). Institutional source, not NASA footage.",
+      "mapsTo": ["PSI-23"],
+      "placement": ["media", "investigation"]
+    },
+    {
+      "id": "2fGszMlf6n8",
+      "provider": "youtube",
+      "title": "Microgravity Combustion",
+      "channel": "NASAconnect",
+      "sourceType": "nasa-official",
+      "program": "NASA Connect — educational overview",
+      "overview": "NASA Connect educational segment on microgravity combustion research — why flames become spherical without buoyancy and what that changes for fire safety. Orientation context for the whole PSI corpus.",
+      "mapsTo": ["PSI-69", "PSI-26", "PSI-98"],
+      "placement": ["media", "mission"]
+    },
+    {
+      "id": "BxxqCLxxY3M",
+      "provider": "youtube",
+      "title": "ScienceCasts: Strange Flames on the International Space Station",
+      "channel": "NASA Science",
+      "sourceType": "nasa-official",
+      "program": "Cool flames — FLEX/CFI",
+      "overview": "NASA ScienceCasts episode on the 'strange' cool flames discovered in ISS droplet combustion — heptane droplets that re-ignite and burn cool after visible extinction, the phenomenon central to FLEX (PSI-69) and the Cool Flames Investigation (PSI-39, PSI-159).",
+      "mapsTo": ["PSI-39", "PSI-159", "PSI-69"],
+      "placement": ["media", "investigation", "mission"]
+    },
+    {
+      "id": "Ij0YBills8Q",
+      "provider": "youtube",
+      "title": "Solid Surface Combustion Experiment",
+      "channel": "NASA STI Program",
+      "sourceType": "nasa-official",
+      "program": "SSCE — shuttle heritage",
+      "overview": "NASA STI footage of the Solid Surface Combustion Experiment flown on the Space Shuttle — the flight-program ancestor of SAFFIRE's spacecraft fire-safety demonstrations and BASS solid-fuel studies.",
+      "mapsTo": ["PSI-98", "PSI-99", "PSI-100", "PSI-25", "PSI-26"],
+      "placement": ["media", "investigation", "mission"]
+    },
+    {
+      "id": "kdf8ahuHJ0A",
+      "provider": "youtube",
+      "title": "Combustion Integrated Rack (revised)",
+      "channel": "NASA Johnson",
+      "sourceType": "nasa-official",
+      "program": "Facilities — Combustion Integrated Rack",
+      "overview": "NASA Johnson overview of the Combustion Integrated Rack (CIR) in the US Destiny laboratory — the facility that hosts ACME, FLEX, CFI/BASS follow-ons and SPICE. The hardware context for most recovered PSI tables.",
+      "mapsTo": ["PSI-10", "PSI-20", "PSI-21", "PSI-22", "PSI-23", "PSI-39", "PSI-68", "PSI-69", "PSI-107", "PSI-159"],
+      "placement": ["media", "mission"]
+    },
+    {
+      "id": "-7Wi3b7H7OI",
+      "provider": "youtube",
+      "title": "How Does Fire Behave In Space? | Video",
+      "channel": "VideoFromSpace",
+      "sourceType": "independent-science-communicator",
+      "program": "BASS — solid fuels",
+      "overview": "Space.com (VideoFromSpace) explainer built around NASA's BASS solid-fuel burning experiments aboard the ISS — how flame spread over solid surfaces differs without buoyancy. Independent communicator source, not NASA footage.",
+      "mapsTo": ["PSI-25", "PSI-26"],
+      "placement": ["media", "investigation"]
+    },
+    {
+      "id": "Dq4gKBZSUZI",
+      "provider": "youtube",
+      "title": "Saffire - Spacecraft Fire Experiment",
+      "channel": "SciNews",
+      "sourceType": "independent-news",
+      "program": "SAFFIRE — spacecraft fire",
+      "overview": "SciNews coverage of the SAFFIRE spacecraft fire experiments on the Orbital ATK Cygnus cargo vehicle — large-scale flame spread tests impossible to run safely on the crewed station. Independent news source, not NASA footage.",
+      "mapsTo": ["PSI-98", "PSI-99", "PSI-100"],
+      "placement": ["media", "investigation"]
+    },
+    {
+      "id": "j23887AMwXk",
+      "provider": "youtube",
+      "title": "Saffire-I Experiment Burns in Space",
+      "channel": "NASA Video",
+      "sourceType": "nasa-official",
+      "program": "SAFFIRE-I",
+      "overview": "NASA Video release of SAFFIRE-I — a large cotton-fiberglass sample burned deliberately inside an uncrewed Cygnus vehicle in 2016, returning the largest-scale microgravity flame-spread data recovered in this corpus (PSI-98).",
+      "mapsTo": ["PSI-98", "PSI-99"],
+      "placement": ["media", "investigation", "mission"]
+    },
+    {
+      "id": "lvJ78l9ZJ_E",
+      "provider": "youtube",
+      "title": "NASA's Spacecraft Fire Safety Demonstration Project, Saffire IV",
+      "channel": "NASA Glenn Research Center",
+      "sourceType": "nasa-official",
+      "program": "SAFFIRE-IV",
+      "overview": "NASA Glenn briefing on SAFFIRE-IV — the final SAFFIRE flight testing fire growth, detector response and suppression in a pressurized spacecraft module (PSI-100 in the recovered corpus).",
+      "mapsTo": ["PSI-100", "PSI-99"],
+      "placement": ["media", "investigation", "mission"]
+    },
+    {
+      "id": "svs-11318",
+      "provider": "link",
+      "url": "https://svs.gsfc.nasa.gov/11318",
+      "title": "FLEX — NASA Scientific Visualization Studio",
+      "channel": "NASA SVS",
+      "sourceType": "nasa-official",
+      "program": "FLEX — scientific visualization",
+      "overview": "NASA Goddard SVS visualization page for the Flame Extinguishment Experiment: high-resolution renders and explainer material on droplet combustion and extinction on the ISS (PSI-69 / PSI-68). Opens on svs.gsfc.nasa.gov.",
+      "mapsTo": ["PSI-69", "PSI-68"],
+      "placement": ["media", "investigation"]
+    },
+    {
+      "id": "f9AQ-OebO_U",
+      "provider": "youtube",
+      "title": "Structure and Response of Spherical Diffusion Flames (s-Flame)",
+      "channel": "NASA Glenn Research and Technology",
+      "sourceType": "nasa-official",
+      "program": "ACME s-Flame",
+      "overview": "NASA Glenn research briefing on the s-Flame experiment: a spherical diffusion flame of gaseous fuel studied for soot formation and structure in microgravity — the direct subject of PSI-23's recovered experimental tables.",
+      "mapsTo": ["PSI-23", "PSI-22"],
+      "placement": ["media", "investigation"]
+    }
+  ]
+}

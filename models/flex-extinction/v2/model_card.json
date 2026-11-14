@@ -1,0 +1,111 @@
+{
+ "model_id": "flex-extinction-v2",
+ "task": "binary classification \u2014 FLEX droplet visible-flame extinction outcome (Extinction vs Disruption/Completion)",
+ "pillar": "suppression",
+ "data": {
+  "source": "PSI-69_FLEX.csv (NASA PSI, DOI 10.60555/mbq8-0451), recovered from official PSI endpoint, sha256-verified vs project manifest",
+  "rows_raw": 274,
+  "rows_clean": 262,
+  "extinction": 180,
+  "extinction_share": 0.687,
+  "features": [
+   "XO2",
+   "p_mmHg",
+   "d0_mm",
+   "fuel_heptane",
+   "XHe",
+   "XCO"
+  ],
+  "outcome_definition": "y=1 if Test end == Extinction else 0 (Disruption/Completion)"
+ },
+ "validation": "GroupKFold n=4 grouped by (fuel, rounded pressure, rounded O2) condition",
+ "metrics": {
+  "groupedAucMean": 0.8816,
+  "groupedAucFolds": [
+   0.89,
+   0.8462,
+   0.8548,
+   0.9354
+  ],
+  "balancedAccuracyMean": 0.7859,
+  "oxygenOnlyBaselineAuc": 0.8175,
+  "groupBootstrapAucCi": [
+   0.8819,
+   0.889
+  ]
+ },
+ "historical_recorded": {
+  "note": "Metrics recorded in the V6 project spec from the prior repository build (protocol/grouping not fully preserved)",
+  "groupedAuc": 0.875,
+  "groupedAucCi": [
+   0.832,
+   0.917
+  ],
+  "oxygenOnlyBaselineAuc": 0.806,
+  "balancedAccuracy": 0.77,
+  "nClean": 261,
+  "extinctionShare": 0.686,
+  "conditionGroups": 110
+ },
+ "inBrowserScoring": {
+  "kind": "logistic",
+  "featureNames": [
+   "XO2",
+   "p_mmHg",
+   "d0_mm",
+   "fuel_heptane",
+   "XHe",
+   "XCO"
+  ],
+  "means": [
+   0.20103,
+   716.22023,
+   3.00168,
+   0.41221,
+   0.04809,
+   0.12424
+  ],
+  "stds": [
+   0.04728,
+   280.23267,
+   0.69402,
+   0.49223,
+   0.11298,
+   0.17629
+  ],
+  "coefStandardized": [
+   -1.86949,
+   -0.02345,
+   0.69001,
+   -0.40755,
+   0.41666,
+   0.34051
+  ],
+  "score": "sigmoid(coef . ((x - means)/stds))"
+ },
+ "limitations": [
+  "Outcome is visible-flame extinction in the FLEX droplet configuration only; not a general flammability or cabin-fire safety metric.",
+  "Applicability domain: microgravity ISS FLEX conditions (methanol/heptane droplets, ~0.21-0.65 O2, ~500-1100 mmHg). Model guard rejects gravity > 0.02 g.",
+  "Not calibrated as a probability; report as relative score with uncertainty.",
+  "Small sample; grouped CV fold variance is material.",
+  "Disruption and Completion outcomes are merged as non-extinction; they are physically distinct."
+ ],
+ "trainedAt": "2026-11-12",
+ "framework": "custom IRLS logistic regression (numpy), reproduced in this rebuild",
+ "status": "verified-reproduction",
+ "domainGuard": {
+  "maxGravityG": 0.02,
+  "fuels": [
+   "Methanol",
+   "Heptane"
+  ],
+  "o2Range": [
+   0.15,
+   0.7
+  ],
+  "pressureMmHgRange": [
+   400,
+   1150
+  ]
+ }
+}
